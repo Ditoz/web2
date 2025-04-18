@@ -1,0 +1,258 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/user-icon.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Icono de usuario */
+.user-icon {
+    font-size: 60px;
+    color: #0275d8;
+    margin-bottom: 15px;
+}
+
+/* Encabezado */
+.header {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0275d8;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Botón */
+.track-btn, .btn-register {
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.track-btn:hover, .btn-register:hover {
+    background: linear-gradient(45deg, #218838, #1e7e34);
+}
+
+/* Opciones extra */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0275d8;
+}
+
+/* Contenedor de registro */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.register-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.icon img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+}
+
+.btn-register {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/user-icon.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/user-icon.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Icono de usuario */
+.user-icon {
+    font-size: 70px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Encabezado */
+.header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+/* Mensaje de error */
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Campos de entrada */
+input {
+    width: 95%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+/* Botón de login */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Opciones extra */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.options a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Registro link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
